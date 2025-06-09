@@ -41,7 +41,7 @@ Additionally, the methods for ‘update_map’ and ‘update_graph’ were imple
 
 The challenges faced while implementing the Grazioso Salvare database project were the limitations of the virtual desktop Apporto as occasionally connection was lost, resulting in an inability to continue working on the project further. 
 
-**Dash Functionality** 
+##**Dash Functionality** 
 
 Dash was utilized in the Grazioso Salvare database project in order to provide an interactive web application dashboard for users. As Dash is an “open-source Python framework” (Dash framework, n.d., para. 2), it paired well with the use of MongoDB and Python in order to meet client requirements. Additionally, since Dash does not require additional language such as HTML or CSS, creating a functional and polished dashboard. 
 
@@ -51,23 +51,24 @@ The Dash framework consists of the front-end view and back-end controller. With 
 
 The expected result of front-end functionality for the Grazioso Salvare data table dashboard is illustrated in the following series of screenshots. 
 
-Starting State of Dashboard
+**Starting State of Dashboard**
 ![StartingStateDashboard](https://github.com/user-attachments/assets/502e7a98-39ee-46e0-a983-af5b0717f7cb)
 ![StartingStateDashboard2](https://github.com/user-attachments/assets/58f17620-3524-4e9e-ab53-0fa303f96c90)
 
-Dropdown Menu Functionality - Water Rescue
+**Dropdown Menu Functionality - Water Rescue**
 ![WaterRescueFunctionality](https://github.com/user-attachments/assets/9109141b-1eea-4723-b487-6613a05dc41a)
 
-Dropdown Menu Functionality - Mountain or Wilderness Rescue
+**Dropdown Menu Functionality - Mountain or Wilderness Rescue**
 ![MountainRescueFunctionality](https://github.com/user-attachments/assets/a6ed91f6-b2c6-46a8-8797-1a0a120a6cc0)
 
-Dropdown Menu Functionality - Disaster or Individual Tracking
+**Dropdown Menu Functionality - Disaster or Individual Tracking**
 ![DisasterFunctionality](https://github.com/user-attachments/assets/0ac25005-7e86-462d-ba46-5d8c3a056708)
 
-Dropdown Menu Functionality - Reset State
+**Dropdown Menu Functionality - Reset State**
 ![ResetState](https://github.com/user-attachments/assets/ded71a09-1f53-43e6-8d20-2ba7d01047f1)
 
-**MongoDB Use and Functionality** 
+
+##**MongoDB Use and Functionality** 
 
 As the client required a database for ingesting data from various animal shelters, as provided by the Austin Animal Center, the application needed to allow for effective data integration of siloed data which is a key feature with MongoDB in terms of schema flexibility (Giamas, 2022). Additionally, Grazioso Salvare intends to allow their program to remain open source. The popularity and accessibility of MongoDB would extend the handling of siloed data to other organizations utilizing the same application in that unknown data types would be accounted for and handled appropriately. 
 
@@ -91,25 +92,34 @@ Verification of New User in MongoDB:
 
 Secondary Verification of New User in MongoDB Using RunCommand: 
 
-**CRUD Functionality Screenshots**
 
-Testing CRUD Implementation: 
+##**CRUD Functionality Screenshots**
+
+**Testing CRUD Implementation:** 
 (The instance of test_insert is unique due to dog instance’s data, programmer’s dog)
+![TestingCRUD1](https://github.com/user-attachments/assets/d7a8a128-2a2d-46bc-8360-2af6e12b475c)
 
-Results of CRUD Testing Implementation: 
+**Results of CRUD Testing Implementation:**
+![TestingCRUD2](https://github.com/user-attachments/assets/f60a56c0-993c-4fbc-9c83-03e50dcabf53)
 
-CREATING New Animal Instance: 
+**CREATING New Animal Instance:** 
 (instance of new_animal unique as database primarily handles dogs and cats, new_animal_type = Primate)
+![CreatingNewAnimal](https://github.com/user-attachments/assets/c6356dd2-4629-46d3-b573-9da580fa47a6)
 
-READING New Animal Instance:
+**READING New Animal Instance:**
+![ReadingNewAnimal](https://github.com/user-attachments/assets/f9108c8a-d6d2-421d-af37-6f81bff2c05a)
 
-UPDATING New Animal Instance: 
+**UPDATING New Animal Instance:** 
+![UpdatingNewAnimal](https://github.com/user-attachments/assets/bfc20954-7f35-4879-b5b6-f47cf3291335)
 
-Verifying UPDATING New Animal Instance: 
+**Verifying UPDATING New Animal Instance:** 
+![VerifyingNewAnimalUpdate](https://github.com/user-attachments/assets/20e772ce-0f5d-45a0-bb95-0fb79df809e1)
 
-DELETING New Animal Instance: 
+**DELETING New Animal Instance:** 
+![DeletingNewAnimal](https://github.com/user-attachments/assets/67d36ea4-df6f-4914-963b-8fcc59ca746d)
 
-**Roadmap/Features**
+
+##**Roadmap/Features**
 
 Features which could be implemented in future iterations of the Grazioso Salvare program could include web-accessibility and an interactive dashboard. Additionally, obtaining data from various animal rescue organizations nationwide, rather than only from the Austin Animal Center, could be implemented via web scraping animal rescue websites or by entering partnerships with said rescues.  
 
