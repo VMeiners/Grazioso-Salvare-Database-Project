@@ -41,7 +41,7 @@ Additionally, the methods for ‘update_map’ and ‘update_graph’ were imple
 
 The challenges faced while implementing the Grazioso Salvare database project were the limitations of the virtual desktop Apporto as occasionally connection was lost, resulting in an inability to continue working on the project further. 
 
-##**Dash Functionality** 
+**Dash Functionality** 
 
 Dash was utilized in the Grazioso Salvare database project in order to provide an interactive web application dashboard for users. As Dash is an “open-source Python framework” (Dash framework, n.d., para. 2), it paired well with the use of MongoDB and Python in order to meet client requirements. Additionally, since Dash does not require additional language such as HTML or CSS, creating a functional and polished dashboard. 
 
@@ -68,7 +68,7 @@ The expected result of front-end functionality for the Grazioso Salvare data tab
 ![ResetState](https://github.com/user-attachments/assets/ded71a09-1f53-43e6-8d20-2ba7d01047f1)
 
 
-##**MongoDB Use and Functionality** 
+**MongoDB Use and Functionality** 
 
 As the client required a database for ingesting data from various animal shelters, as provided by the Austin Animal Center, the application needed to allow for effective data integration of siloed data which is a key feature with MongoDB in terms of schema flexibility (Giamas, 2022). Additionally, Grazioso Salvare intends to allow their program to remain open source. The popularity and accessibility of MongoDB would extend the handling of siloed data to other organizations utilizing the same application in that unknown data types would be accounted for and handled appropriately. 
 
@@ -80,20 +80,25 @@ The decision to interface MongoDB with Python was due to the ease of integration
 
 The expected results of MongoDB functionality are illustrated in the following screenshots. 
 
-Importing and Inserting aac_shelter_outcomes.csv Into MongoDB
+**Importing and Inserting aac_shelter_outcomes.csv Into MongoDB**
+![LoadingDatabase](https://github.com/user-attachments/assets/a0f1d188-2deb-48db-bcec-ab3f9e53208d)
 
-Verification of CSV Import and Insert Into MongoDB: 
+**Verification of CSV Import and Insert Into MongoDB:**
+![SuccesfullLoad](https://github.com/user-attachments/assets/10a60802-c47d-409a-9300-aa27ea814105)
 
-Secondary Verification of CSV Import and Insert Into MongoDB Using Indexing & Query: 
+**Secondary Verification of CSV Import and Insert Into MongoDB Using Indexing & Query:**
+![IndexExampleQuery](https://github.com/user-attachments/assets/55aef118-5830-4830-9ad8-778e2f962e34)
 
-Creating New User in MongoDB: 
+**Creating New User in MongoDB:**
+![CreateUser](https://github.com/user-attachments/assets/fbef6442-1276-43b3-93fa-055a4e83f5f2)
 
-Verification of New User in MongoDB: 
+**Verification of New User in MongoDB:**
+![VerificationOfNewUser](https://github.com/user-attachments/assets/8ca45818-eb44-445f-bf0e-66048fdc7f97)
 
-Secondary Verification of New User in MongoDB Using RunCommand: 
+**Secondary Verification of New User in MongoDB Using RunCommand:**
+![RunCommand](https://github.com/user-attachments/assets/beb2db8e-1990-40ab-a48d-c81854da4050)
 
-
-##**CRUD Functionality Screenshots**
+## **CRUD Functionality Screenshots**
 
 **Testing CRUD Implementation:** 
 (The instance of test_insert is unique due to dog instance’s data, programmer’s dog)
@@ -119,7 +124,7 @@ Secondary Verification of New User in MongoDB Using RunCommand:
 ![DeletingNewAnimal](https://github.com/user-attachments/assets/67d36ea4-df6f-4914-963b-8fcc59ca746d)
 
 
-##**Roadmap/Features**
+**Roadmap/Features**
 
 Features which could be implemented in future iterations of the Grazioso Salvare program could include web-accessibility and an interactive dashboard. Additionally, obtaining data from various animal rescue organizations nationwide, rather than only from the Austin Animal Center, could be implemented via web scraping animal rescue websites or by entering partnerships with said rescues.  
 
