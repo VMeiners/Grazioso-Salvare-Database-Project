@@ -21,7 +21,7 @@ In order to meet the required functionality, the Grazioso Salvare data table das
 - A responsive geolocation chart which displays the appropriate entry information when selected
 - A responsive chart which displays the appropriate information when selected 
 
-**Project Implementation**
+## **Project Implementation**
 
 To implement the project, the Austin Animal Center dataset, the csv file ‘aac_animal_shelter_outcomes’ was imported into the MongoDB database. The success of the imported document was then verified utilizing ‘show dbs’ in MongoDB. Additional verifications were implemented such as creating indexes and running queries on the AAC database. 
 
@@ -41,7 +41,7 @@ Additionally, the methods for ‘update_map’ and ‘update_graph’ were imple
 
 The challenges faced while implementing the Grazioso Salvare database project were the limitations of the virtual desktop Apporto as occasionally connection was lost, resulting in an inability to continue working on the project further. 
 
-**Dash Functionality** 
+## **Dash Functionality** 
 
 Dash was utilized in the Grazioso Salvare database project in order to provide an interactive web application dashboard for users. As Dash is an “open-source Python framework” (Dash framework, n.d., para. 2), it paired well with the use of MongoDB and Python in order to meet client requirements. Additionally, since Dash does not require additional language such as HTML or CSS, creating a functional and polished dashboard. 
 
@@ -68,7 +68,7 @@ The expected result of front-end functionality for the Grazioso Salvare data tab
 ![ResetState](https://github.com/user-attachments/assets/ded71a09-1f53-43e6-8d20-2ba7d01047f1)
 
 
-**MongoDB Use and Functionality** 
+## **MongoDB Use and Functionality** 
 
 As the client required a database for ingesting data from various animal shelters, as provided by the Austin Animal Center, the application needed to allow for effective data integration of siloed data which is a key feature with MongoDB in terms of schema flexibility (Giamas, 2022). Additionally, Grazioso Salvare intends to allow their program to remain open source. The popularity and accessibility of MongoDB would extend the handling of siloed data to other organizations utilizing the same application in that unknown data types would be accounted for and handled appropriately. 
 
