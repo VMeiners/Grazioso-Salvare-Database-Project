@@ -52,14 +52,20 @@ The Dash framework consists of the front-end view and back-end controller. With 
 The expected result of front-end functionality for the Grazioso Salvare data table dashboard is illustrated in the following series of screenshots. 
 
 Starting State of Dashboard
+![StartingStateDashboard](https://github.com/user-attachments/assets/502e7a98-39ee-46e0-a983-af5b0717f7cb)
+![StartingStateDashboard2](https://github.com/user-attachments/assets/58f17620-3524-4e9e-ab53-0fa303f96c90)
 
 Dropdown Menu Functionality - Water Rescue
+![WaterRescueFunctionality](https://github.com/user-attachments/assets/9109141b-1eea-4723-b487-6613a05dc41a)
 
 Dropdown Menu Functionality - Mountain or Wilderness Rescue
+![MountainRescueFunctionality](https://github.com/user-attachments/assets/a6ed91f6-b2c6-46a8-8797-1a0a120a6cc0)
 
 Dropdown Menu Functionality - Disaster or Individual Tracking
+![DisasterFunctionality](https://github.com/user-attachments/assets/0ac25005-7e86-462d-ba46-5d8c3a056708)
 
 Dropdown Menu Functionality - Reset State
+![ResetState](https://github.com/user-attachments/assets/ded71a09-1f53-43e6-8d20-2ba7d01047f1)
 
 **MongoDB Use and Functionality** 
 
